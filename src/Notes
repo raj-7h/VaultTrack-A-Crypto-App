@@ -1,0 +1,15 @@
+- //NOTE - React.StrictMode :
+
+  React.StrictMode is a development tool in React that activates extra checks and warnings to help identify potential problems in your application. It highlights issues like unsafe lifecycle methods, improper side effects, and deprecated APIs, ensuring your code is more robust and future-proof. You can enable it by wrapping your components with <React.StrictMode> in your component tree.
+
+- //NOTE - import { BrowserRouter as Router, Routes, Route } from "react-router-dom" :
+
+            react-router-dom is a popular library used in React applications to handle routing. It allows you to create single-page applications (SPAs) where different components are rendered based on the current URL path, without requiring a full page reload.
+
+            BrowserRouter: is a component of react-router-dom.
+            Router: This is just the type alias
+            Routes & Route: this is also a compnent of react-router-dom
+
+//NOTE - Force to terminate the prossing in the port 3000 : kill -9 $(lsof -t -i:3000)
+
+//NOTE - <Hstack> : This is a Horizontal Stack component from Chakra UI. It allows you to stack elements horizontally with even spacing.
