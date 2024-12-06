@@ -14,15 +14,11 @@ export default function Home() {
       />
 
       <Text
-        fontSize={"6xl"}
+        fontSize={["1xl", "5xl"]}
         textAlign={"center"}
         fontWeight={"bold"}
         color={"whiteAlpha.700"}
-        position={"absolute"}
-        top={"75%"} // Position text vertically centered
-        left={"50%"} // Center horizontally
-        transform={"translate(-50%, -50%)"} // Adjust for perfect centering
-        zIndex={1}
+        mt={-20}
       >
         VaultTrack : A Crypto App
       </Text>
